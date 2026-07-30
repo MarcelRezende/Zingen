@@ -50,6 +50,8 @@ html {
   line-height: 1.6;
   color: var(--text-color-primary);
 
+  overflow-x: hidden;
+
 }
 
 body {
@@ -87,9 +89,9 @@ a {
 a:hover {
   background: linear-gradient(90deg, var(--brand-color-secondary) 0%,
       var(--brand-color-primary) 100%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 ul[role="list"] {
